@@ -1,12 +1,12 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #E5E5E5;
+    background-color: white;
 }
 .full-width-top-bg {
     background-color: #F0FFF0;
 }
 .full-width-content-bg {
-    background-color: #E5E5E5;
+    /* background-color: white; */
 
 }
 .full-width-footer-bg {
@@ -125,15 +125,20 @@ body {
     border-radius: 33px;
     border: none;
     font-family: 'Roboto', sans-serif;
-    /* padding: 8px 28px; */
 }
 .card-footer {
     background-color: white;
     border: none;
-    margin-left: -15px;
+    margin-left: -20px;
+    padding-bottom: 0px;
 }
-
-
+.card-footer img {
+    width: 30px;
+    padding-bottom: 20px;
+}
+.card-footer p {
+    font-size: small;
+}
 .testimonial-area img {
     width: 120px;
     height: 120px;
